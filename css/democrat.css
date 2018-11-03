@@ -1,0 +1,31 @@
+.title {
+    color:darkgray;
+    font-size: 40px;
+    font-family: fantasy;
+}
+
+.container-fluid{
+    text-align: center;
+}
+
+.navbar{
+    background-color: gainsboro;
+}
+
+.nav-item{
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.active{
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.row1{
+    margin-top: 140px;
+}
+
+.bord-col{
+    border-right: 1px solid;
+}
