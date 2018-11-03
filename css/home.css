@@ -1,6 +1,20 @@
 .title {
-    color:whitesmoke;
+    color:darkgray;
     font-size: 40px;
     font-family: fantasy;
     margin-left: 40%;
+}
+
+.navbar{
+    background-color: gainsboro;
+}
+
+.nav-item{
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.active{
+    font-family: fantasy;
+    font-size: 20px;
 }
