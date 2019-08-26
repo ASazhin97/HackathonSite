@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 id="id01">Old Heading</h1>
+<p id="demo"></p>
+
+<script>
+var element = document.getElementById("id01");
+element.innerHTML = "New Heading";
+
+document.getElementById("demo").innerHTML = formatDate(new Date());
+
+function formatDate(date) {
+  var monthNames = [
+    "January", "February", "March",
+    "April", "May", "June", "July",
+    "August", "September", "October",
+    "November", "December"
+  ];
+
+  var day = date.getDate();
+  var monthIndex = date.getMonth();
+  var year = date.getFullYear();
+
+  return monthNames[monthIndex] + ' ' + day + ', ' + year;
+}
+
+console.log(formatDate(new Date());
+</script>
+
+</body>
+</html>
